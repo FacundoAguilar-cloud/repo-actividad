@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.detalle {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em;
+    background-color: white;
+    border: 0.1em solid black;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+.imagen-institucion {
+    display: block;
+    width: 50%;
+    margin: 1em auto;
+    padding: 2em;
+    background-color: #dddddd;
+    border: 0.1em solid black;
+    text-align: center;
+}
+
+.logo-google {
+    width: 30%;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2em;
+}

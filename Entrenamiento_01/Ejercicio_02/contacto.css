@@ -1,0 +1,51 @@
+.contacto-main {
+    margin-top: 6em;
+    padding-bottom: 6em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario {
+    width: 70%;
+
+    border: 0.1em solid black;
+    padding: 2em;
+}
+
+.campo {
+    margin-bottom: 1em;
+
+    display: flex;
+    align-items: center;
+}
+
+.campo label {
+    width: 15%;
+}
+
+.campo input {
+    width: 30%;
+}
+
+.campo textarea {
+    width: 60%;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-around;
+}
+
+.boton-enviar {
+    width: 30%;
+    background-color: lightblue;
+    border: 0.1em solid black;
+}
+
+.boton-cancelar {
+    width: 30%;
+    background-color: lightcoral;
+    border: 0.1em solid black;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contacto.css">
+</head>
+<body>
+
+    <header>
+      <nav class="main-nav">
+            <a href="index.html">HOME</a>
+            |
+            <a href="contacto.html">CONTACTO</a>
+        </nav>
+    </header>
+
+    <main class = "contacto-main">
+
+        <form class="formulario" action="#" method="post">
+
+            <div class="campo">
+                <label for="nombre">Nombre:</label>
+
+                <input
+                    type="text"
+                    name="nombre"
+                    id="nombre"
+                    required
+                >
+            </div>
+
+            <div class="campo">
+                <label for="email">E-mail:</label>
+
+                <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    required
+                >
+            </div>
+
+            <div class="campo">
+                <label for="telefono">Tel:</label>
+
+                <input
+                    type="tel"
+                    name="telefono"
+                    id="telefono"
+                    pattern="[0-9]{8,15}"
+                    title="Ingresá entre 8 y 15 números"
+                    required
+                >
+            </div>
+
+            <div class="campo">
+                <label for="mensaje">Mensaje:</label>
+
+                <textarea
+                    name="mensaje"
+                    id="mensaje"
+                    rows="6"
+                    cols="30"
+                    required
+                ></textarea>
+            </div>
+
+            <div class="botones">
+                <input
+                    class="boton-enviar"
+                    type="submit"
+                    value="Enviar"
+                >
+
+                <input
+                    class="boton-cancelar"
+                    type="reset"
+                    value="Cancelar"
+                >
+            </div>
+        </form>
+
+    </main>
+
+      <footer class="main-footer">
+        <p>Todos los derechos reservados</p>
+    </footer>
+    
+</body>
+</html>
